@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoJourney</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles3.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <form>
+            <div class="flex-item">
+              <label for="signup-name">From:</label>
+              <input id="signup-name" value="Current Location" type="text">
+            </div>
+            <div class="flex-item flex-item__alt">
+              <label for="signup-email">To:</label>
+              <input id="signup-email" value="Desired Location" type="text">
+            </div>
+            <input class="flex-item" type="submit" value="Find Modes">
+          </form>
+          
+        <div class="responsive-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.218883418613!2d77.21174571164457!3d28.623201275568356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdc835831e4d%3A0x4e6de4c24a9824e9!2sYulu%20Bike!5e0!3m2!1sen!2sin!4v1721424547580!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        <div id="tsum-tabs">
+            <main>
+
+                <input id="tab1" type="radio" name="tabs">
+                <label for="tab1">Carpool</label>
+            
+
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Bus</label>
+              
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Metro</label>
+              
+            <input id="tab4" type="radio" name="tabs">
+            <label for="tab4">Ebike</label>
+              
+      
+
+            <section id="content1">
+              <p>
+                1. Nexon EV going through this route, will drop you 400m from the destination <br>  <hr> <br>
+                2. Tata Tiago EV going through this route, will drop you 1.1km from the destination
+              </p>
+            </section>
+              
+            <section id="content2">
+              <p>
+                 1. Bus Route 22 starts from 200m of your location and drops you from 400m of your destination <br> <hr> <br> 
+                 2. Bus Route 43 starts from 1.2 km of your location and drops you from 100m of your location
+              </p>
+            </section>
+              
+            <section id="content3">
+              <p>
+                 1. Peeragarhi Metro Station (300m from your location) (Green Line) ---------- Inderlok Metro Station (Red Line) ---------- Rohini West (100m from your destination) (Red Line)
+              </p>
+            </section>
+              
+            <section id="content4">
+              <p>
+                 Nearest EBike Station: <br>
+                 Yulu Bikes, CP, New Delhi (200m from your location)
+<br><br>
+                 Drop off point: <br>
+                 Yulu, Uttam Nagar (100m from your destination)
+              </p>
+            </section>
+              
+          </main>
+          </div>
+        <nav class="bottom-nav">
+          
+            <div class="bottom-nav-item active">
+                <a href="index.html">
+                <div class="bottom-nav-link">
+                    <span class="material-icons">
+                        home
+                        </span>
+                        <p>Home</p>
+                </div>
+            </a>
+              </div>
+          
+          
+            <div class="bottom-nav-item">
+                <a href="tips.html">
+                <div class="bottom-nav-link">
+                    <span class="material-icons">
+                        tips_and_updates
+                        </span>
+                        <p>Tips</p>
+                </div>
+            </a>
+              </div>
+            <div class="bottom-nav-item">
+                <a href="events.html">
+
+                <div class="bottom-nav-link">
+                    <span class="material-icons">
+                        emoji_events
+                        </span>
+                        <p>Events</p>
+                </div>
+            </a>
+
+              </div>
+            <div class="bottom-nav-item">
+                <a href="stats.html">
+
+                <div class="bottom-nav-link">
+                    <span class="material-icons">
+                        query_stats
+                        </span>
+                        <p>Stats</p>
+                </div>
+            </a>
+
+              </div>
+            <div class="bottom-nav-item">
+                <a href="settings.html">
+
+                <div class="bottom-nav-link">
+                    <span class="material-icons">
+                        settings
+                        </span>
+                        <p>Settings</p>
+                </div>
+            </a>
+
+              </div>
+        
+        </nav>
+      </header>
+      <script src="script2.js"></script>
+</body>
+</html>
