@@ -8,3 +8,16 @@ navItems.forEach(function(e, i) {
     this.classList.add("active");
   });
 });
+
+$('.button-row').each( function() {
+  var $buttonRow = $( this );
+  var $activeButton = $buttonRow.find('.button.is-active');
+
+  $buttonRow.on( 'click', '.button', function( event ) {
+    // deactivate previous button
+    $activeButton.removeClass('is-active');
+    // set & activate new button
+    $activeButton = $( this );
+    $activeButton.addClass('is-active');
+  });
+});
