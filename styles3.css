@@ -33,7 +33,7 @@
     padding: 15px 25px;
     font-weight: 600;
     text-align: center;
-    color: #bbb;
+    color: black;
     border: 1px solid transparent;
   }
   
@@ -41,12 +41,14 @@
     font-family: fontawesome;
     font-weight: normal;
     margin-right: 10px;
+    display: none;
   }
   
   #tsum-tabs label[for*='1']:before { content: '\f1cb'; }
   #tsum-tabs label[for*='2']:before { content: '\f17d'; }
   #tsum-tabs label[for*='3']:before { content: '\f16b'; }
   #tsum-tabs label[for*='4']:before { content: '\f1a9'; }
+  #tsum-tabs label[for*='5']:before { content: '\f1a9'; }
   
   #tsum-tabs label:hover {
     color: #888;
@@ -63,13 +65,14 @@
   #tsum-tabs #tab1:checked ~ #content1,
   #tsum-tabs #tab2:checked ~ #content2,
   #tsum-tabs #tab3:checked ~ #content3,
-  #tsum-tabs #tab4:checked ~ #content4 {
+  #tsum-tabs #tab4:checked ~ #content4,
+  #tsum-tabs #tab5:checked ~ #content5 {
     display: block;
   }
   
   @media screen and (max-width: 650px) {
     #tsum-tabs label {
-      font-size: 0;
+      font-size: 20pxs;
     }
     #tsum-tabs label:before {
       margin: 0;

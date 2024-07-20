@@ -23,6 +23,8 @@ body {
     position: relative;
     background-color: #fff;
     transition: box-shadow 300ms ease-in;
+    border-radius: 30px;
+
   }
   
   @media (min-width: 768px) {
@@ -127,3 +129,6 @@ body {
     color: #cd4c4c;
   }
   
+  .photo {
+    object-fit: cover;
+  }
